@@ -10,3 +10,8 @@ Serve via any static server. For local testing:
 ```bash
 cd docs/
 python3 -m http.server 8000
+```
+
+## Blog Post here
+
+https://www.andyjarrett.com/posts/2025/learning_python_offline_with_a_pwa/
