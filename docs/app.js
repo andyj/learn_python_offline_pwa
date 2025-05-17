@@ -2,7 +2,13 @@ const modules = [
   {
     id: 1,
     title: 'Hello World & printing',
-    explanation: `<p>Python programs start with simple statements. The <code>print()</code> function sends text or values to the console. Every Python file you run can contain multiple <code>print()</code> calls to show data or messages. This is usually the first thing beginners learn: writing a short program that prints “Hello, world!” to confirm the environment works. You can include plain text in quotes or combine text with variables by using commas or f-strings (with an <code>f</code> prefix). When you run the code, the interpreter executes each line in sequence and displays output. This module covers how to write and run basic <code>print()</code> statements, how to use quotes for strings, and how to run your first Python script in a browser with Skulpt.</p>`,
+    explanation: `
+      <p>
+        Python programs start with simple statements. The <code>print()</code> function sends text or values to the console. Every Python file you run can contain multiple <code>print()</code> calls to show data or messages. This is usually the first thing beginners learn: writing a short program that prints “Hello, world!” to confirm the environment works. You can include plain text in quotes or combine text with variables by using commas or f-strings (with an <code>f</code> prefix). When you run the code, the interpreter executes each line in sequence and displays output. This module covers how to write and run basic <code>print()</code> statements, how to use quotes for strings, and how to run your first Python script in a browser with Skulpt.
+        <br><sub>Find this <a href="https://github.com/andyj/learn_python_offline_pwa" target="_blank">Github</a></sub>
+        </p>
+
+    `,
     codeExamples: [
       `print("Hello, world!")`,
       `name = input("Enter your name: ")\nprint(f"Hello, {name}!")`,

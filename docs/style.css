@@ -174,8 +174,8 @@ body {
   opacity: 0.9;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .menu-btn {
     display: none;
   }
-}
+}*/

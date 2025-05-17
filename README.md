@@ -8,5 +8,5 @@
 ## Hosting
 Serve via any static server. For local testing:
 ```bash
-cd <project-folder>
+cd docs/
 python3 -m http.server 8000
