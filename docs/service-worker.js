@@ -5,8 +5,8 @@ const ASSETS = [
   'style.css',
   'app.js',
   'manifest.json',
-  'dist/skulpt.min.js',
-  'dist/skulpt-stdlib.js'
+  'skulpt/skulpt.min.js',
+  'skulpt/skulpt-stdlib.js'
 ];
 
 self.addEventListener('install', event => {
